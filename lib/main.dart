@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'bottomAppBarDemo.dart';
+import 'pages.dart';
 
 void main() {
   runApp(MyApp());
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'flutter DIY theme',
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: BottomAppBarDemo(),
+      home: FirstPage(),
     );
   }
 }
