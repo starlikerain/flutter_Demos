@@ -1,19 +1,17 @@
 import 'package:flutter/material.dart';
-import 'navigationWidget.dart';
+import 'bottomAppBarDemo.dart';
 
 void main() {
   runApp(MyApp());
 }
 
-
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'flutter button navigateBar',
-      theme: ThemeData.light(),
-      home: BottomNavigationWidget(),
+      title: 'flutter DIY theme',
+      theme: ThemeData(primarySwatch: Colors.blue),
+      home: BottomAppBarDemo(),
     );
   }
 }
-
