@@ -15,12 +15,17 @@ class CustomRoute extends PageRouteBuilder {
 //                child: child,
 //              );
 
-              return RotationTransition(
-                turns: Tween(begin: 0.0, end: 1.0).animate(CurvedAnimation(parent: animation1, curve: Curves.fastOutSlowIn)),
-                child: ScaleTransition(
-                  scale: Tween(begin: 0.0, end: 1.0).animate(CurvedAnimation(parent: animation1, curve: Curves.fastOutSlowIn)),
-                  child: child,
-                ),
+//              return RotationTransition(
+//                turns: Tween(begin: 0.0, end: 1.0).animate(CurvedAnimation(parent: animation1, curve: Curves.fastOutSlowIn)),
+//                child: ScaleTransition(
+//                  scale: Tween(begin: 0.0, end: 1.0).animate(CurvedAnimation(parent: animation1, curve: Curves.fastOutSlowIn)),
+//                  child: child,
+//                ),
+//              );
+
+              return SlideTransition(
+                position: Tween<Offset>(begin: Offset(-1.0, 0.0), end: Offset(0.0, 0.0)).animate(CurvedAnimation(parent: animation1, curve: Curves.bounceInOut)),
+                child: child,
               );
 
 //              return ScaleTransition(
