@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'pages.dart';
+import 'forsted_glass_effect.dart';
 
 void main() {
   runApp(MyApp());
@@ -9,9 +9,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'flutter DIY theme',
+      title: 'flutter 毛玻璃效果制作',
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: FirstPage(),
+      home: Scaffold(
+        body: ForstedGlassEffect(),
+      ),
     );
   }
 }
