@@ -13,7 +13,7 @@ class OopenAnimationState extends State<OpenAnimation> with SingleTickerProvider
   @override
   void initState() {
     super.initState();
-    _controler = AnimationController(vsync: this, duration: Duration(seconds: 2));
+    _controler = AnimationController(vsync: this, duration: Duration(seconds: 1));
     _animation = Tween(begin: 0.0, end: 1.0).animate(_controler);
 
     // 动画状态完成，就到正式的 index 页面去
@@ -31,7 +31,6 @@ class OopenAnimationState extends State<OpenAnimation> with SingleTickerProvider
   @override
   Widget build(BuildContext context) {
     return Container(
-      //      child: Text('12'),
       child: FadeTransition(
         opacity: _controler,
         child: Image.asset(

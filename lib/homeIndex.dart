@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_fucked_world/drawerPage.dart';
 
 class HomeIndex extends StatelessWidget {
   @override
@@ -10,6 +11,7 @@ class HomeIndex extends StatelessWidget {
       body: Center(
         child: Text('中间的内容区域'),
       ),
+      drawer: DrawerPage(),
     );
   }
 }
