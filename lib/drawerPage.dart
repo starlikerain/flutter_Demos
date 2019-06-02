@@ -24,12 +24,17 @@ class DrawerPage extends StatelessWidget {
             onTap: () {},
           ),
           ListTile(
-            title: Text('内容展示'),
+            title: Text('翻译收藏夹'),
             leading: Icon(CupertinoIcons.home),
             onTap: () {},
           ),
           ListTile(
-            title: Text('搞莫比区'),
+            title: Text('离线翻译'),
+            leading: Icon(CupertinoIcons.home),
+            onTap: () {},
+          ),
+          ListTile(
+            title: Text('设置'),
             leading: Icon(CupertinoIcons.home),
             onTap: () {},
           ),

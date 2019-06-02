@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_fucked_world/bodyPage.dart';
 import 'package:flutter_fucked_world/drawerPage.dart';
 
 class HomeIndex extends StatelessWidget {
@@ -7,9 +8,12 @@ class HomeIndex extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('莫比啊'),
+        elevation: 0,
       ),
-      body: Center(
-        child: Text('中间的内容区域'),
+      body: Column(
+        children: <Widget>[
+          IndexBody(),
+        ],
       ),
       drawer: DrawerPage(),
     );
