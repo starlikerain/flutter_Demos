@@ -42,10 +42,10 @@ class _IconAndHintAreaState extends State<IconAndHintArea> {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceAround,
       children: <Widget>[
-        ActionButton(title: '相机', icon: Icons.add),
-        ActionButton(title: '相机', icon: Icons.add),
-        ActionButton(title: '相机', icon: Icons.add),
-        ActionButton(title: '相机', icon: Icons.add),
+        ActionButton(title: '相机', icon: Icons.camera),
+        ActionButton(title: '手写', icon: Icons.unarchive),
+        ActionButton(title: '对话', icon: Icons.phone),
+        ActionButton(title: '语音', icon: Icons.photo_album),
       ],
     );
   }
