@@ -19,7 +19,8 @@ main.dart -> openAnimation.dart -> homeIndex.dart ->
 [
     bodyPage.dart, /* 顶部[中文&英文]切换区域*/
     TextFieldPage.dart /*中间文字输入和相机等功能区域*/
-]
+    recordingTranslate.dart /*底部历史记录区域*/
+],
 [
     DrawerPage.dart /* 左侧抽屉 */
 ]

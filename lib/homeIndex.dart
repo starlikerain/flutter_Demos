@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_fucked_world/bodyPage.dart';
 import 'package:flutter_fucked_world/drawerPage.dart';
+import 'package:flutter_fucked_world/recordingTranslate.dart';
 import 'package:flutter_fucked_world/textFieldPage.dart';
 
 class HomeIndex extends StatelessWidget {
@@ -15,9 +16,10 @@ class HomeIndex extends StatelessWidget {
         children: <Widget>[
           IndexBody(),
           TextFieldPage(),
+          RecordingTranslate(),
         ],
       ),
       drawer: DrawerPage(),
     );
   }
-}
+} 
