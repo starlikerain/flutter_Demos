@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
 
+/// 这是中间部分
+/// 中间  TextField 内容输入区
+/// 中下部分 [icon + 文字] 区域
+///
+
 class TextFieldPage extends StatefulWidget {
   @override
   _TextFieldPageState createState() => _TextFieldPageState();
@@ -9,6 +14,7 @@ class _TextFieldPageState extends State<TextFieldPage> {
   @override
   Widget build(BuildContext context) {
     return Card(
+      elevation: 4,
       margin: EdgeInsets.all(8),
       child: Container(
         height: 150,
@@ -24,6 +30,7 @@ class _TextFieldPageState extends State<TextFieldPage> {
   }
 }
 
+// textfield 里面的下半部分按钮和文字部分
 class IconAndHintArea extends StatefulWidget {
   @override
   _IconAndHintAreaState createState() => _IconAndHintAreaState();
