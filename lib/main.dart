@@ -3,6 +3,8 @@ import 'package:flutter_fucked_world/rxDartDemo.dart';
 //import 'package:flutter_fucked_world/openAnimation.dart';
 import 'package:flutter_fucked_world/streamDemo.dart';
 
+import 'blocDemo.dart';
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -26,7 +28,8 @@ class MyApp extends StatelessWidget {
       /* TODO REVERT */
 //      home: OpenAnimation(),
 //      home: StreamDemoHome(),
-      home: RxDartHome(),
+//      home: RxDartHome(),
+      home: BlocHome(),
     );
   }
 }
