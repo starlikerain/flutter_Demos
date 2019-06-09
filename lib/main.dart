@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_fucked_world/openAnimation.dart';
+//import 'package:flutter_fucked_world/openAnimation.dart';
+import 'package:flutter_fucked_world/streamDemo.dart';
 
 void main() => runApp(MyApp());
 
@@ -21,7 +22,9 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: OpenAnimation(),
+      /* TODO REVERT */
+//      home: OpenAnimation(),
+      home: StreamDemoHome(),
     );
   }
 }
