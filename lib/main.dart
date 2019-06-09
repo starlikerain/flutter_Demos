@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_fucked_world/rxDartDemo.dart';
 //import 'package:flutter_fucked_world/openAnimation.dart';
 import 'package:flutter_fucked_world/streamDemo.dart';
 
@@ -24,7 +25,8 @@ class MyApp extends StatelessWidget {
       ),
       /* TODO REVERT */
 //      home: OpenAnimation(),
-      home: StreamDemoHome(),
+//      home: StreamDemoHome(),
+      home: RxDartHome(),
     );
   }
 }
